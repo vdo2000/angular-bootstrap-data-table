@@ -32,7 +32,9 @@
     "@angular/router": "~8.0.0",
     "rxjs": "~6.4.0",
     "tslib": "^1.9.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "~0.9.1",
+    "bootstrap": "^4.3.1",
+    "@fortawesome/fontawesome-free": "^5.9.0"
   },
   "author": "Vince Do <vdo2000@gmail.com>",
   "license": "MIT",
