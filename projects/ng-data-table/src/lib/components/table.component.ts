@@ -224,15 +224,15 @@ export class DataTable implements DataTableParams, OnInit {
   @Output() headerClick = new EventEmitter();
   @Output() cellClick = new EventEmitter();
 
-  private rowClicked(row: DataTableRow, event) {
+  public rowClicked(row: DataTableRow, event) {
     this.rowClick.emit({ row, event });
   }
 
-  private rowDoubleClicked(row: DataTableRow, event) {
+  public rowDoubleClicked(row: DataTableRow, event) {
     this.rowDoubleClick.emit({ row, event });
   }
 
-  private headerClicked(column: DataTableColumn, event: MouseEvent) {
+  public headerClicked(column: DataTableColumn, event: MouseEvent) {
     if (!this._resizeInProgress) {
       this.headerClick.emit({ column, event });
     } else {
@@ -282,7 +282,7 @@ export class DataTable implements DataTableParams, OnInit {
     return count;
   }
 
-  private getRowColor(item: any, index: number, row: DataTableRow) {
+  public getRowColor(item: any, index: number, row: DataTableRow) {
     if (this.rowColors !== undefined) {
       return (<RowCallback>this.rowColors)(item, row, index);
     }
@@ -349,7 +349,7 @@ export class DataTable implements DataTableParams, OnInit {
 
   private _resizeInProgress = false;
 
-  private resizeColumnStart(
+  public resizeColumnStart(
     event: MouseEvent,
     column: DataTableColumn,
     columnElement: HTMLElement
