@@ -8,13 +8,15 @@ import {
   OnDestroy
 } from '@angular/core';
 import { DataTable } from './table.component';
-import { ROW_TEMPLATE } from './row.template';
-import { ROW_STYLE } from './row.style';
+// import { ROW_TEMPLATE } from './row.template';
+// import { ROW_STYLE } from './row.style';
 
 @Component({
   selector: '[dataTableRow]',
-  template: ROW_TEMPLATE,
-  styles: [ROW_STYLE]
+  templateUrl: './row.html',
+  styleUrls: ['./row.css']
+  //   template: ROW_TEMPLATE,
+  //   styles: [ROW_STYLE]
 })
 export class DataTableRow implements OnDestroy {
   @Input() item: any;
