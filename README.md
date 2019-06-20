@@ -15,7 +15,7 @@ The component can be used not just with local data, but remote resources too: fo
 
 The templates use bootstrap CSS class names, so the component requires a bootstrap .css file to be present in the application using it.
 
-Check out the [demo](https://ggmod.github.io/angular-2-data-table-demo) and its [code](https://github.com/vdo2000/angular-data-table-demo) for examples of how to use it.
+Check out the [demo](https://stackblitz.com/github/vdo2000/angular-data-table) for examples of how to use it.
 
 ## Installing:
 
