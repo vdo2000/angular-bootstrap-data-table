@@ -1,14 +1,3 @@
-// import { NgModule } from '@angular/core';
-// import { NgDataTableComponent } from './ng-data-table.component';
-
-// @NgModule({
-//   declarations: [NgDataTableComponent],
-//   imports: [
-//   ],
-//   exports: [NgDataTableComponent]
-// })
-// export class NgDataTableModule { }
-
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';

@@ -1,14 +1,10 @@
 import { Component, Inject, forwardRef } from '@angular/core';
 import { DataTable } from './table.component';
-// import { PAGINATION_TEMPLATE } from './pagination.template';
-// import { PAGINATION_STYLE } from "./pagination.style";
 
 @Component({
   selector: 'data-table-pagination',
   templateUrl: './pagination.html',
   styleUrls: ['./pagination.css']
-  //   template: PAGINATION_TEMPLATE,
-  //   styles: [PAGINATION_STYLE]
 })
 export class DataTablePagination {
   constructor(

@@ -7,7 +7,4 @@ export class MinPipe implements PipeTransform {
   transform(value: number[]): any {
     return Math.min.apply(null, value);
   }
-  // transform(value: number[], args: string[]): any {
-  //   return Math.min.apply(null, value);
-  // }
 }

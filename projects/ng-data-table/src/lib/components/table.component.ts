@@ -16,15 +16,11 @@ import { DataTableParams } from './types';
 import { RowCallback } from './types';
 import { DataTableTranslations, defaultTranslations } from './types';
 import { drag } from '../utils/drag';
-// import { TABLE_TEMPLATE } from './table.template';
-// import { TABLE_STYLE } from './table.style';
 
 @Component({
   selector: 'data-table',
   templateUrl: './table.html',
   styleUrls: ['./table.css']
-  //   template: TABLE_TEMPLATE,
-  //   styles: [TABLE_STYLE]
 })
 export class DataTable implements DataTableParams, OnInit {
   private _items: any[] = [];
