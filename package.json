@@ -1,12 +1,10 @@
 {
-  "name": "angular-data-table",
+  "name": "angular-bootstrap-data-table",
   "version": "0.1.0",
-  "description": "An Angular data table, with pagination, sorting, expandable rows etc. Bootstrap 4 version.",
+  "description": "An Angular 8 data table, with pagination, sorting, expandable rows etc. Bootstrap 4 version.",
   "keywords": [
     "angular",
-    "angular2",
-    "Angular 2",
-    "ng2",
+    "Angular 8",
     "datatable",
     "data-table",
     "data table",
@@ -18,7 +16,11 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "build_lib": "ng build ng-data-table",
+    "copy-readme": "copy .\\README.md .\\dist\\ng-data-table",
+    "npm_pack": "cd dist/ng-data-table && npm pack",
+    "package": "npm run build_lib && npm run copy-readme && npm run npm_pack"
   },
   "private": true,
   "dependencies": {
