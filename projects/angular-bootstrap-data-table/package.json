@@ -1,7 +1,8 @@
 {
   "name": "angular-bootstrap-data-table",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
+  "homepage": "https://github.com/vdo2000/angular-bootstrap-data-table",
   "peerDependencies": {
     "@angular/common": "^8.0.0",
     "@angular/core": "^8.0.0"
