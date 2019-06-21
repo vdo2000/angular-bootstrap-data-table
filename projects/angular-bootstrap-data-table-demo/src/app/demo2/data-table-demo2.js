@@ -10,7 +10,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var angular_4_data_table_bootstrap_4_1 = require("ng-data-table");
+var angular_4_data_table_bootstrap_4_1 = require("angular-bootstrap-data-table");
 var data_table_demo2_data_1 = require("./data-table-demo2-data");
 var DataTableDemo2 = /** @class */ (function () {
     function DataTableDemo2() {

@@ -3,7 +3,7 @@ import {
   DataTable,
   DataTableTranslations,
   DataTableResource
-} from 'ng-data-table';
+} from 'angular-bootstrap-data-table';
 import { films } from './data-table-demo3-data';
 
 @Component({
