@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ng-data-table-demo'`, () => {
+  it(`should have as title 'angular-bootstrap-data-table-demo'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('ng-data-table-demo');
+    expect(app.title).toEqual('angular-bootstrap-data-table-demo');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to ng-data-table-demo!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to angular-bootstrap-data-table-demo!');
   });
 });

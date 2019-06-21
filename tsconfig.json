@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "ng-data-table": [
-        "dist/ng-data-table"
+      "angular-bootstrap-data-table": [
+        "dist/angular-bootstrap-data-table"
       ],
-      "ng-data-table/*": [
-        "dist/ng-data-table/*"
+      "angular-bootstrap-data-table/*": [
+        "dist/angular-bootstrap-data-table/*"
       ]
     }
   }

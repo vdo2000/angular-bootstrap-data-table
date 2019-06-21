@@ -17,9 +17,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build_lib": "ng build ng-data-table",
-    "copy-readme": "copy .\\README.md .\\dist\\ng-data-table",
-    "npm_pack": "cd dist/ng-data-table && npm pack",
+    "build_lib": "ng build angular-bootstrap-data-table",
+    "copy-readme": "copy .\\README.md .\\dist\\angular-bootstrap-data-table",
+    "npm_pack": "cd dist/angular-bootstrap-data-table && npm pack",
     "package": "npm run build_lib && npm run copy-readme && npm run npm_pack"
   },
   "private": true,

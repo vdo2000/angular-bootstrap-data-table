@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-data-table-demo';
+  title = 'angular-bootstrap-data-table-demo';
 }
