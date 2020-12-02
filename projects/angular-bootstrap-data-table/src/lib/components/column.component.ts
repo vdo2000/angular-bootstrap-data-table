@@ -18,8 +18,8 @@ export class DataTableColumn implements OnInit {
   @Input() width: number | string;
   @Input() visible = true;
 
-  @ContentChild('dataTableCell', { static: false }) cellTemplate;
-  @ContentChild('dataTableHeader', { static: false }) headerTemplate;
+  @ContentChild('dataTableCell') cellTemplate;
+  @ContentChild('dataTableHeader') headerTemplate;
 
   getCellColor(row: DataTableRow, index: number) {
     if (this.cellColors !== undefined) {

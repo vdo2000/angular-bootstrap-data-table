@@ -15,7 +15,12 @@
             "tsConfig": "projects/angular-bootstrap-data-table/tsconfig.lib.json",
             "project": "projects/angular-bootstrap-data-table/ng-package.json"
           }
-        },
+        ,          "configurations": {
+            "production": {
+              "tsConfig": "projects/angular-bootstrap-data-table/tsconfig.lib.prod.json"
+            }
+          }
+},
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
@@ -46,6 +51,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/angular-bootstrap-data-table-demo",
             "index": "projects/angular-bootstrap-data-table-demo/src/index.html",
             "main": "projects/angular-bootstrap-data-table-demo/src/main.ts",
@@ -80,6 +86,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             }
