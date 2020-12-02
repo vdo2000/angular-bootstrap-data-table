@@ -14,6 +14,11 @@
           "options": {
             "tsConfig": "projects/angular-bootstrap-data-table/tsconfig.lib.json",
             "project": "projects/angular-bootstrap-data-table/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/angular-bootstrap-data-table/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -31,7 +36,9 @@
               "projects/angular-bootstrap-data-table/tsconfig.lib.json",
               "projects/angular-bootstrap-data-table/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         }
       }
@@ -46,6 +53,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "aot": true,
             "outputPath": "dist/angular-bootstrap-data-table-demo",
             "index": "projects/angular-bootstrap-data-table-demo/src/index.html",
             "main": "projects/angular-bootstrap-data-table-demo/src/main.ts",
@@ -55,7 +63,9 @@
               "projects/angular-bootstrap-data-table-demo/src/favicon.ico",
               "projects/angular-bootstrap-data-table-demo/src/assets"
             ],
-            "styles": ["projects/angular-bootstrap-data-table-demo/src/styles.css"],
+            "styles": [
+              "projects/angular-bootstrap-data-table-demo/src/styles.css"
+            ],
             "scripts": []
           },
           "configurations": {
@@ -80,6 +90,10 @@
                   "type": "initial",
                   "maximumWarning": "2mb",
                   "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "6kb"
                 }
               ]
             }
@@ -113,7 +127,9 @@
               "projects/angular-bootstrap-data-table-demo/src/favicon.ico",
               "projects/angular-bootstrap-data-table-demo/src/assets"
             ],
-            "styles": ["projects/angular-bootstrap-data-table-demo/src/styles.css"],
+            "styles": [
+              "projects/angular-bootstrap-data-table-demo/src/styles.css"
+            ],
             "scripts": []
           }
         },
@@ -125,7 +141,9 @@
               "projects/angular-bootstrap-data-table-demo/tsconfig.spec.json",
               "projects/angular-bootstrap-data-table-demo/e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -143,5 +161,8 @@
       }
     }
   },
-  "defaultProject": "angular-bootstrap-data-table-demo"
+  "defaultProject": "angular-bootstrap-data-table-demo",
+  "cli": {
+    "analytics": "989e9323-0ad6-469a-8913-f1735e74076c"
+  }
 }

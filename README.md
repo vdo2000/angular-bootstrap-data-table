@@ -1,6 +1,6 @@
 ## Angular Bootstrap Data Table
 
-This is a forked version of https://www.npmjs.com/package/angular-2-data-table that has been updated to Angular 8.
+This is a forked version of https://www.npmjs.com/package/angular-2-data-table that has been updated to Angular 9.
 
 A simple Angular data table, with built-in solutions for features including:
 
