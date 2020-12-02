@@ -35,7 +35,7 @@
     "rxjs": "~6.6.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.5.3",
     "@fortawesome/fontawesome-free": "^5.9.0"
   },
   "author": "Vince Do <vdo2000@gmail.com>",
