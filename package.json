@@ -36,7 +36,7 @@
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2",
     "bootstrap": "^4.5.3",
-    "@fortawesome/fontawesome-free": "^5.9.0"
+    "@fortawesome/fontawesome-free": "^5.15.1"
   },
   "author": "Vince Do <vdo2000@gmail.com>",
   "license": "MIT",
